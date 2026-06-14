@@ -1,36 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download App</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sexy Chat Download</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(#540000,#b00000);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+width:360px;
+background:transparent;
+padding:20px;
+color:#fff;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:15px;
+}
+
+.logo-box{
+width:60px;
+height:60px;
+background:#ff1b2d;
+border-radius:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+}
+
+h1{
+font-size:42px;
+font-weight:bold;
+line-height:1.05;
+margin-bottom:15px;
+}
+
+.hero{
+position:relative;
+}
+
+.hero img{
+width:100%;
+border-radius:15px;
+}
+
+.chat1,.chat2{
+position:absolute;
+right:10px;
+background:rgba(255,0,0,.25);
+border:2px solid rgba(255,0,0,.5);
+padding:10px 18px;
+border-radius:15px;
+font-size:28px;
+}
+
+.chat1{
+top:40px;
+}
+
+.chat2{
+top:110px;
+}
+
+.features{
+margin-top:20px;
+font-size:22px;
+font-weight:bold;
+line-height:2;
+}
+
+.download{
+display:block;
+margin-top:25px;
+background:#ff1b2d;
+color:#fff;
+text-decoration:none;
+text-align:center;
+padding:18px;
+border-radius:16px;
+font-size:38px;
+font-weight:bold;
+}
+</style>
 </head>
+
 <body>
 
 <div class="container">
 
-    <div class="logo">
-        ❤️
-    </div>
+<div class="logo">
+<div class="logo-box">❤</div>
+</div>
 
-    <h1>Your Late-Night<br>Chat Partner<br>Awaits</h1>
+<h1>Your Late-Night<br>Chat Partner<br>Awaits</h1>
 
-    <div class="profile">
-        <div class="chat heart">❤️</div>
-        <div class="chat smile">😊</div>
-    </div>
+<div class="hero">
+<img src="girl.png" alt="Girl">
+<div class="chat1">❤</div>
+<div class="chat2">😊</div>
+</div>
 
-    <ul>
-        <li>💬 Flirty chats anytime</li>
-        <li>📹 Private video calls</li>
-        <li>🔒 Exclusive private videos</li>
-        <li>🛡️ 100% secure & discreet</li>
-    </ul>
+<div class="features">
+<div>💬 Flirty chats anytime</div>
+<div>📹 Private video calls</div>
+<div>🔒 Exclusive private videos</div>
+<div>🔐 100% Secure & Discreet</div>
+</div>
 
-    <a href="https://your-download-link.com" class="btn">
-        Download Now
-    </a>
+<a href="app.apk" class="download">Download Now</a>
 
 </div>
 
